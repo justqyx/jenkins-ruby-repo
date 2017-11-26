@@ -10,7 +10,12 @@ pipeline {
         }
         stage('Build2') {
           steps {
-            sh 'echo "Build2"'
+            sh '''echo "Build2"
+echo "Build2"
+echo "Build2"
+echo "Build2"
+echo "Build2"
+echo "Build2"'''
           }
         }
       }
