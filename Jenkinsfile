@@ -40,4 +40,7 @@ pipeline {
       }
     }
   }
+  environment {
+    RAILS_ENV = 'test'
+  }
 }
